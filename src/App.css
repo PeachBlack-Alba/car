@@ -1,1 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+/*****************************************FOOTER*************************/
+
+.footerP {
+  text-align: justify;
+  font-size: 10px;
+  margin: 0px;
+  position: fixed;
+  background-color: #bdbebd;
+  bottom: 0px;
+  width: 100%;
+}
+
+/*******************************NAVBAR***************************/
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

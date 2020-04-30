@@ -4,7 +4,7 @@ export default class footer extends Component {
   render() {
     return (
       <div>
-        <p>
+        <p className="footerP">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
