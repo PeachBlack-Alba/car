@@ -41,11 +41,12 @@ body {
   position: relative;
   background-color: #bdbebd;
   width: 100%;
-  height: 60%;
+  height: 30%;
   margin: 0px;
   padding: 40px;
 }
 
 .slider {
-  width: 70%;
+  width: 60%;
+  height: 30%;
 }
