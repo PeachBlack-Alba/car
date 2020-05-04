@@ -31,3 +31,17 @@ body {
 }
 
 /****************************SLIDER****************************/
+
+.appWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 50%;
+  padding: 32px;
+}
+
+.image {
+  width: 50%;
+}
