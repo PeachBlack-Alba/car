@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import landing from "./components/landing";
 import navbar from "./components/navbar";
-import slider from "./components/slider";
+import slider from "./components/images";
 import info from "./components/info";
 import services from "./components/services";
 import footer from "./components/footer";

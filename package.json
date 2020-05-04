@@ -10,9 +10,12 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
+    "react-items-carousel": "^2.8.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "react-simple-image-slider": "^1.0.3"
+    "react-simple-image-slider": "^1.0.3",
+    "react-slick": "^0.25.2",
+    "styled-components": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
