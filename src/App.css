@@ -16,7 +16,7 @@ body {
   text-align: justify;
   font-size: 10px;
   margin: 0px;
-  position: block;
+  position: fixed;
   background-color: #bdbebd;
   bottom: 0px;
   width: 100%;
@@ -38,10 +38,14 @@ body {
 }
 
 .wrapper {
-  width: 70%;
+  position: relative;
+  background-color: #bdbebd;
+  width: 100%;
+  height: 60%;
+  margin: 0px;
   padding: 40px;
 }
 
-.image {
+.slider {
   width: 70%;
 }

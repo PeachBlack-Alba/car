@@ -18,6 +18,7 @@ export default class images extends Component {
           infinite={true}
           arrows={true}
           focusOnSelect={true}
+          className="slider"
         >
           <img className="image" src={image1} alt="image1" />
 
