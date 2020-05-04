@@ -16,7 +16,7 @@ body {
   text-align: justify;
   font-size: 10px;
   margin: 0px;
-  position: fixed;
+  position: block;
   background-color: #bdbebd;
   bottom: 0px;
   width: 100%;
@@ -38,10 +38,10 @@ body {
 }
 
 .wrapper {
-  width: 50%;
-  padding: 32px;
+  width: 70%;
+  padding: 40px;
 }
 
 .image {
-  width: 50%;
+  width: 70%;
 }
