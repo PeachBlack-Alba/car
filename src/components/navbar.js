@@ -14,11 +14,13 @@ export default class navbar extends Component {
         {/* <Container>
           <Navbar.Brand href="#">Navbar</Navbar.Brand>
         </Container> */}
-        <Nav className="mr-auto">
-          <img className="barra1" src={barra1} alt="barra1" />
-          <img className="barra2" src={barra2} alt="barra2" />
-          <img className="barra3" src={barra3} alt="barra3" />
-          <img className="barra4" src={barra4} alt="barra4" />
+        <Nav>
+          <div className="containerNavbar">
+            <img className="barra1" src={barra1} alt="barra1" />
+            <img className="barra2" src={barra2} alt="barra2" />
+            <img className="barra3" src={barra3} alt="barra3" />
+            <img className="barra4" src={barra4} alt="barra4" />
+          </div>
         </Nav>
       </Navbar>
     );
