@@ -6,6 +6,7 @@ import barra1 from "../images/barra1.png";
 import barra2 from "../images/barra2.png";
 import barra3 from "../images/barra3.png";
 import barra4 from "../images/barra4.png";
+import barra5 from "../images/barra5.png";
 
 export default class navbar extends Component {
   render() {
@@ -20,6 +21,7 @@ export default class navbar extends Component {
             <img className="barra2" src={barra2} alt="barra2" />
             <img className="barra3" src={barra3} alt="barra3" />
             <img className="barra4" src={barra4} alt="barra4" />
+            <img className="barra5" src={barra5} alt="barra5" />
           </div>
         </Nav>
       </Navbar>
