@@ -11,18 +11,30 @@ import barra5 from "../images/barra5.png";
 export default class navbar extends Component {
   render() {
     return (
-      <Navbar class="navbar" fixed="top" bg="light" variant="light">
+      <Navbar className="nabar" expand="xl" variant="dark" bg="dark">
         {/* <Container>
           <Navbar.Brand href="#">Navbar</Navbar.Brand>
         </Container> */}
         <Nav>
+          {/* <div className="containerNavbar"> */}
           <div className="containerNavbar">
-            <img className="barra1" src={barra1} alt="barra1" />
-            <img className="barra2" src={barra2} alt="barra2" />
-            <img className="barra3" src={barra3} alt="barra3" />
-            <img className="barra4" src={barra4} alt="barra4" />
-            <img className="barra5" src={barra5} alt="barra5" />
+            <div className="navSection">
+              <img className="barra" src={barra1} alt="barra1" />
+            </div>
+            <div className="navSection">
+              <img className="barra" src={barra2} alt="barra2" />
+            </div>
+            <div className="navSection">
+              <img className="barra" src={barra3} alt="barra3" />
+            </div>
+            <div className="navSection">
+              <img className="barra" src={barra4} alt="barra4" />
+            </div>
+            <div className="navSection">
+              <img className="barra" src={barra5} alt="barra5" />
+            </div>
           </div>
+          {/* </div> */}
         </Nav>
       </Navbar>
     );

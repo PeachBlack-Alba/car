@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from "react-dom";
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import landing from "./components/landing";

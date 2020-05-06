@@ -38,38 +38,115 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-}
-
-.containerNavbar {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* 
+.containerNavbar {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: nowrap;
+} */
+.navSection {
+  float: left;
+  width: 20%;
+}
+.barra {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /****************************SLIDER****************************/
 
-.appWrapper {
+/* .appWrapper {
+  align-items: center;
   display: flex;
+  height: 100%;
   justify-content: center;
+  overflow-x: hidden;
+  width: 100%;
+} */
+
+.carousel-container {
+  border: 8px solid black;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  width: 60%;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-  background-color: #bdbebd;
-  height: 100px;
-  width: 100px;
+.carousel-img {
   position: absolute;
-  left: 50%;
-  margin-left: -50px;
-  top: 50%;
-  margin-top: -50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-height: 250px;
 }
+
+/********************************************PRUEBA***************************/
 
 .slider {
-  width: 60%;
-  height: 30%;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  width: 350px;
+  height: 200px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.slider__container {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+.slider__item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 200px;
+  transition: all 0.4s ease;
+}
+.slider__prev {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  z-index: 999;
+  background: #a2a2a2;
+  color: #ffffff;
+  /* font-weigtht: 600;
+      opactiy: 0.8; */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+.slider__next {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  z-index: 999;
+  background: #a2a2a2;
+  color: #ffffff;
+  /* font-weigtht: 600;
+      opactiy: 0.8; */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
 }
