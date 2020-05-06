@@ -4,15 +4,14 @@ import Slider from "react-slick";
 import image1 from "../images/image1.png";
 import image2 from "../images/image2.png";
 import image3 from "../images/image3.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 export default class images extends Component {
   render() {
-
     const data = [
-      {"id":"1",  "src={image1}"}
-    ]
+      // { "id": "1", "src={image1}"}
+    ];
     return (
       <div className="appWrapper">
         <div className="carousel-container">
